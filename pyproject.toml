@@ -1,0 +1,19 @@
+[project]
+name = "milestone-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Ridwan", email = "akinbayo.ridwan.201036@fuoye.edu.ng" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "pandas>=3.0.5",
+]
+
+[project.scripts]
+milestone-project = "milestone_project:main"
+
+[build-system]
+requires = ["uv_build>=0.12.2,<0.13.0"]
+build-backend = "uv_build"
